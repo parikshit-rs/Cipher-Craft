@@ -4,7 +4,7 @@ A web-based password generator with a basic password strength checker. This proj
 
 > Hey myself Parikshit, I made this project around May 2022 when I was new to front end development so the interface may seem a bit simple, feel free to make any changes in the CSS file if you want.
 
-![Password Generator Screenshot](screenshot.jpeg)
+![Password Generator Screenshot](screenshot.png)
 
 ## Features of this application
 
