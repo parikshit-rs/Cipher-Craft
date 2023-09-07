@@ -1,4 +1,4 @@
-# Code Weaver
+# Cipher Craft
 
 A web-based password generator with a basic password strength checker. This project allows users to generate random passwords with customizable options and checks the generated password's strength.
 
