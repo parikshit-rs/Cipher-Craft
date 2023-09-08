@@ -11,7 +11,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.getElementById("password").value = password;
 
-        // Check password strength and display it
         const strength = checkPasswordStrength(password);
         document.getElementById("passwordStrength").textContent = `Password Strength: ${strength}`;
     }
@@ -31,13 +30,34 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     function checkPasswordStrength(password) {
-        // Very simple strength checker for demonstration purposes
-        if (password.length >= 8) {
+        const hasUpperCase = /[A-Z]/.test(password);
+        const hasLowerCase = /[a-z]/.test(password);
+        const hasDigits = /\d/.test(password);
+        const hasSpecialChars = /[!@#$%^&*()_+\-=\[\]{};':"\\|,.<>\/?]+/.test(password);
+    
+        const characterTypes = [hasUpperCase, hasLowerCase, hasDigits, hasSpecialChars].filter(Boolean).length;
+
+        var lengthFactor=0;
+        if(password.length>=12) lengthFactor=1;
+        else if(password.length>=6) lengthFactor=0.5;
+
+        var varietyFactor=0;
+        if(characterTypes>=3) varietyFactor=1;
+        else if(characterTypes>=2) varietyFactor=0.5;
+    
+        const strengthScore = (lengthFactor + varietyFactor) / 2;
+        
+        if(strengthScore == 1){
+            return "Very Strong";
+        } else if (strengthScore == 0.75) {
             return "Strong";
-        } else if (password.length >= 6) {
+        } else if (strengthScore == 0.5) {
             return "Moderate";
-        } else {
+        } else if(strengthScore ==0.25){
             return "Weak";
+        } else {
+            return "Very Weak"
         }
     }
+    
 });
