@@ -1,0 +1,15 @@
+{
+    "manifest_version": 2,
+    "name": "Cipher Craft",
+    "author": "Parikshit",
+    "version": "1.4.1",
+    "description": "A web based password generator with features including customizable length, inclusion-exclusion of numbers and special characters, and a password strength checker.",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "logo.png"
+    },
+    "icons": {
+        "128": "logo.png"
+    },
+    "permissions": ["activeTab"]
+}
