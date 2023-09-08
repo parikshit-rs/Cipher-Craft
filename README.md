@@ -2,7 +2,7 @@
 
 This is a web based extension which allows users to generate passwords with personalized options. It offers various options to the users such as customizable length, inclusion-exclusion of numbers and special characters, and a password strength checker.
 
-> Hey myself Parikshit, I made this project around August 2022 when I was new to front end development so the interface may seem a bit simple, feel free to make any changes in the CSS file if you want.
+> Hey myself Parikshit, I made this project around August 2022 so the logo may look a bit simple, feel free to use any other png file if you want, but please note that it should be 128x128px in resolution.
 
 ## Features of this application
 
