@@ -19,7 +19,7 @@ To run this project locally, follow these steps:
 1. Clone the repository to your local machine:
 
    ```shell
-   git clone https://github.com/parikshit-rs/Cipher-Craft.git
+   git clone https://github.com/parikshit-rs/Cypher-Craft.git
    ```
    
 > You can also manually download the files from this repository
