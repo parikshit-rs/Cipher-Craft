@@ -1,6 +1,6 @@
 # Cypher Craft
 
-This is a web page extension which allows users to generate passwords with personalized options. It offers various features to the users such as customizable length, inclusion-exclusion of digits and special characters, and a password strength checker.
+This is a web page extension which allows users to generate passwords with personalized options. It offers various features to the users such as customizable length, inclusion-exclusion of digits and special characters, and a password strength assessment functionality.
 
 > Hey myself Parikshit, I made this project around February 2021 so the logo may look a bit simple, feel free to use any other png file if you want, but please note that it should be 128x128px in resolution.
 
