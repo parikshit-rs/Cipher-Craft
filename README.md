@@ -1,4 +1,4 @@
-# Cipher Craft
+# Cypher Craft
 
 This is a web page extension which allows users to generate passwords with personalized options. It offers various features to the users such as customizable length, inclusion-exclusion of digits and special characters, and a password strength checker.
 
