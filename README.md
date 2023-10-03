@@ -28,7 +28,7 @@ To run this project locally, follow these steps:
 
 3. Now go to **Load unpacked**, select the folder with all the files in this repository.
 
-4. Select **Cipher Craft** extension in your chrome browser.
+4. Select **Cypher Craft** extension in your chrome browser.
 
 5. Set the desired password length using the **Password Length** input field.
 
